@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background (Dark Navy) -->
+  <rect width="100" height="100" fill="#0a1122" />
+
+  <!-- Outer Sharp Tech Border (Accent Cyan) -->
+  <rect x="6" y="6" width="88" height="88" fill="none" stroke="#1e293b" stroke-width="2" />
+  <rect x="12" y="12" width="76" height="76" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.8" />
+
+  <!-- Corner Tech Reticles -->
+  <path d="M12 24 V12 H24" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M76 12 H88 V24" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M12 76 V88 H24" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M88 76 V88 H76" fill="none" stroke="#38bdf8" stroke-width="3" />
+
+  <!-- Monogram Logo "HS" (Harley Sudewa) - Edit letters or style below -->
+  <text 
+    x="50" 
+    y="62" 
+    font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-size="34" 
+    font-weight="800" 
+    letter-spacing="1"
+    fill="#f8fafc" 
+    text-anchor="middle"
+  >
+    <tspan fill="#38bdf8">H</tspan>S
+  </text>
+</svg>
